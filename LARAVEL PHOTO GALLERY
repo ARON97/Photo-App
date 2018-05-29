@@ -1,0 +1,5 @@
+LARAVEL PHOTO GALLERY
+Open shell on XAMPP
+cd htdocs
+php -r "readFile('https://getcomposer.org/installer');" | php, install composer
+php composer.phar create project --prefer-dist laravel/laravel photogallery, installing laravel and creating project

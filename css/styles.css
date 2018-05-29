@@ -1,0 +1,14 @@
+.home_page_photo {
+
+	width: 200px;
+	height: 150px !important; /*using the keyword !important - bootstrap is overriding the height*/
+
+}
+
+/****** Home Page Pagination ******/
+.pager .active a {
+
+	background-color: #000;
+	color: #fff;
+
+}

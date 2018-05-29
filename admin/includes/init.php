@@ -1,0 +1,23 @@
+<?php 
+
+
+// DEFINE CONSTANTS FOR PATH
+defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR); // DIRECTORY_SEPARATOR or DS = /
+
+// DEFINE SITE ROOT : C:\xampp\htdocs\Photo in MAC: Applications
+define('SITE_ROOT', 'C:' . DS . 'xampp' . DS . 'htdocs' . DS . 'Photo');
+
+// DEFINE INCLUDES PATH
+defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT. DS . 'admin' . DS . 'includes');
+
+// initializer file
+require_once(INCLUDES_PATH . DS . "functions.php");
+require_once(INCLUDES_PATH . DS . "new_config.php");
+require_once(INCLUDES_PATH . DS . "database.php");
+require_once(INCLUDES_PATH . DS . "db_object.php");
+require_once(INCLUDES_PATH . DS . "user.php");
+require_once(INCLUDES_PATH . DS . "photo.php");
+require_once(INCLUDES_PATH . DS . "session.php");
+require_once(INCLUDES_PATH . DS . "comment.php");
+require_once(INCLUDES_PATH . DS . "paginate.php");
+?>
